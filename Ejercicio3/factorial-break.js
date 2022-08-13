@@ -7,8 +7,10 @@ Crea los siguientes archivos JS:
 
 const factorialBreak = (num) => {
     let result = 1;
-    for (let i = 1; i <= num; i++) {
+    let i = 1;
+    while (i <= num) {
         result *= i;
+        i++;
         if (i === num) {
             break;
         }
